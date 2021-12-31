@@ -1,0 +1,52 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\hungp\\OneDrive\\Documents\\Desktop\\arduino-nightly-windows\\arduino-nightly\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\hungp\\OneDrive\\Documents\\Desktop\\arduino-nightly-windows\\arduino-nightly\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Desktop\\adruinoHex\\sketch\\test.ino.cpp",
+    "Include": "LiquidCrystal.h",
+    "Includepath": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\LiquidCrystal\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Desktop\\adruinoHex\\sketch\\test.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\DHT_sensor_library"
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Desktop\\adruinoHex\\sketch\\test.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\DHT_sensor_library\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\DHT_sensor_library\\DHT_U.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\DHT_sensor_library\\DHT_U.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\hungp\\OneDrive\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor\\Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

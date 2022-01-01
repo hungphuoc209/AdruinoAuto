@@ -1,0 +1,22 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~VXL_HT.PrjPCB|ReportField=ProjectFullPath~C:\Users\Public\Documents\Altium\Projects\VXL_HT.PrjPCB|ReportField=Title~Bill of Materials For Project [VXL_HT.PrjPCB] (No PCB Document Selected)|ReportField=ReportTime~11:52:17 PM|ReportField=ReportDate~12/31/2021|ReportField=ReportDateTime~12/31/2021 11:52:17 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~67|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~12/31/2021|ReportField=CurrentTime~11:23:26 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Public\Documents\Altium\Projects\VXL_HT.SchDoc|ReportField=DocumentName~VXL_HT.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~12/31/2021|ReportField=Organization~|ReportField=ProjectName~VXL_HT.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~VXL_HT.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Public\Documents\Altium\Projects\VXL_HT.PrjPCB|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|Header 2_1|Header, 2-Pin|AC, FAN, LAMP, VSIN1, VSIN2|HED2|Header 2_1|5
+2|SW|Switch button 2 pin|AUTOMODE, BTNFAN, BTNLAMP, RESET|SW2|SW2|4
+3|10uF|Cap P  0,1uF < 22uF , 16 - 50V|C1, C2|CP1/2|CP1|2
+4|1000uF|Polarized Capacitor (Axial)|C3, C5, C7, C9|C10mm|Cap Pol|4
+5|104|Cap np 104 => 105pF|C4, C6, C8, C10, Cx1, Cx2, Cx5, Cx6, Cx7, Cx8|CN2|CN2|10
+6|22pF|Cap np 104 => 105pF|Cx3, Cx4|CN2|CN2|2
+7|Diode Brideg|Convert AC to DC voltage, 4 pin|DB1|DIO-Bri 5A|DIODE BRIGDE|1
+8|DHT11||DHT|JP4-C1T|DHT11|1
+9|F1A|Fuse|F1|Fuse|Fuse|1
+10|BT137|Triacs - 8A|IC1, IC2|QTO-220|BT137|2
+11|LM7805|On ap +, from + 5 to + 24VDC|IC3, IC4|QTO-220|LM78xx|2
+12|JP6 PIN|JP6 PIN|JP1|JP6_1|JP6|1
+13|JP5|WR-PHD 2.54 mm Angled Socket Header|JP2|JP5-C1T|JP5|1
+14|LED|LED Single colour Green and Red|LED1, LED2, LED3, LED4|LED-3|LED|4
+15|C1815|NPN 600mW, ECB|Q1, Q2|QTO-92|C1815|2
+16|Res1|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19|R1/4W|Res1_1|19
+17|ATmega328-PU|8-bit AVR Microcontroller, 32KB Flash, 1KB EEPROM, 2KB SRAM, 28-pin PDIP, Industrial Grade (-40°C to 85°C)|U1|DIP28|ATmega328-PU|1
+18|LCD||U2|LCD16X2|LCD|1
+19|MOC3021|Single Opto|U4, U5|DIP6|MOC3021|2
+20|10K|Var Resistor|VR1|VR1|Var Resitor|1
+21|16Mhz|Crystal For all Crystal 2pin.|X1|CRYSTAL|CRYSTAL|1

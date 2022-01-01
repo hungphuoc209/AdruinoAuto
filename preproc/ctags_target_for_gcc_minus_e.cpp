@@ -26,15 +26,37 @@ int autoMode = 0;
 DHT dht(dhtPin, DHTTYPE);
 LiquidCrystal lcd(13,12,11,10,9,8);
 
-byte degree[8] = {
-0B01110,
-0B01010,
-0B01110,
-0B00000,
-0B00000,
-0B00000,
-0B00000,
-0B00000
+byte degree[] = {
+  7,
+  5,
+  7,
+  0,
+  0,
+  0,
+  0,
+  0
+};
+
+byte tempChar[] = {
+  4,
+  10,
+  14,
+  14,
+  31,
+  31,
+  14,
+  0
+};
+
+byte humiChar[] = {
+  4,
+  10,
+  10,
+  17,
+  17,
+  17,
+  14,
+  0
 };
 
 void setup() {
@@ -47,13 +69,18 @@ void setup() {
 
   //setup LCD
   lcd.begin(16, 2);
+  lcd.createChar(1, degree);
+  lcd.createChar(2, tempChar);
+  lcd.createChar(3, humiChar);
   lcd.setCursor(0,0);
-  lcd.print("TEMP: ");
+  lcd.write(2);
+  lcd.print("TEMP : ");
   lcd.setCursor(12,0);
   lcd.print("AUTO");
   lcd.setCursor(0,1);
-  lcd.print("HUMI: ");
-  lcd.createChar(1, degree);
+  lcd.write(3);
+  lcd.print("HUMI : ");
+
 
   //setup DHT
   dht.begin();
@@ -150,11 +177,11 @@ void setDHT() {
   if (isnan(t) || isnan(h)) {
   }
   else {
-       lcd.setCursor(6,0);
+       lcd.setCursor(7,0);
        lcd.print(((t)>=0?(long)((t)+0.5):(long)((t)-0.5)));
        lcd.write(1);
        lcd.print("C");
-       lcd.setCursor(6,1);
+       lcd.setCursor(7,1);
        lcd.print(((h)>=0?(long)((h)+0.5):(long)((h)-0.5)));
        lcd.print(" %");
      }
